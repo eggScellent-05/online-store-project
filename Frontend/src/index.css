@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss';
+
+* {
+  font-family: 'Inter', serif;
+}
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  color-scheme: #fafafa;
+}
+
+.bg-green-color {
+  background-color: rgb(57, 219, 74, 0.96);
+}
+.text-green-color {
+  color: #39db4a;
+}
+
+.bg-green-color-light {
+  background-color: rgb(57, 219, 74, 0.83);
+}
+
+.normal-heading {
+  margin-bottom: 2.5rem;
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: -0.025em;
+  @media (min-width: 1024px) {
+    font-size: 3.25rem;
+  }
+}
+
+.orange-heading {
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: #ff6868;
+}
+
+.form-input {
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 18px;
+  border: 2px solid gray;
+}
+
+.error-style {
+  color: red;
+  font-size: 15px;
+}
